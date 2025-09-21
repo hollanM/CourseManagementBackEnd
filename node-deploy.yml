@@ -41,4 +41,4 @@ jobs:
             sudo systemctl stop course-backend-t{number}
             sudo cp course-backend.service /lib/systemd/system/course-backend-t{number}.service
             sudo systemctl daemon-reload
-            sudo systemctl start course-backend-t{number}
+            sudo systemctl start course-backend-t8
