@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "bundle": "mkdir deploy && cp -r app server.js package.json package-lock.json course-backend-t8.service .env deploy"
+    "bundle": "mkdir deploy && cp -r app server.js package.json package-lock.json course-t8-backend.service .env deploy"
   },
 
   "keywords": [
