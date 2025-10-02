@@ -57,6 +57,6 @@ jobs:
             cd nodeapps/2025/project2/t8
             npm install
             sudo systemctl stop course-t8-backend
-            sudo cp .service /lib/systemd/system/course-t8-backend.service
+            sudo cp course-t8-backend.service /lib/systemd/system/course-t8-backend.service
             sudo systemctl daemon-reload
             sudo systemctl start course-t8-backend
