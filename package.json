@@ -1,7 +1,7 @@
 {
-  "name": "tutorial-backend",
+  "name": "course-backend",
   "version": "1.0.0",
-  "description": "Tutorial Node.js with Rest API",
+  "description": "Course Node.js with Rest API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
