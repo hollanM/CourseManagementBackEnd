@@ -15,13 +15,5 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 db.courses = require("./course.model.js")(sequelize, Sequelize);
-db.lessons = require("./lesson.model.js")(sequelize, Sequelize);
-
-db.courses.hasMany(db.lessons, {
-  as: 'lesson'
-});
-db.lessons.belongsTo(db.courses, {
-  foreignKey: 'courseId', as: 'course',
-});
 
 module.exports = db;
